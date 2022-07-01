@@ -1,6 +1,8 @@
 
 body{
     margin: 0;
+    border: 0;
+    padding: 0;
     text-align: center;
     font-family: open sans;
     color: #40514E;
@@ -13,6 +15,7 @@ body{
 
 p {
     line-height: 1;
+    font-size: 20px
 }
 
 a {
@@ -55,20 +58,16 @@ h3 {
 }
 
 .top-container {
-    background-color: #F3C5C5;
+    background-image: linear-gradient(180deg, #F3C5C5, white);
     position: relative;
     padding-top: 100;
-    
+
 }
 
 .middle-container{
     text-align: center;
 }
 
-.bottom-container {
-    background-color: #F3C5C5;
-    padding: 50px 0 20px;
-}
 
 .skills-row {
     width: 50%;
@@ -88,15 +87,6 @@ h3 {
     padding: 50px;
 }
 
-.cartoon-image{
-    float: left;
-    position: absolute;
-    left: 50px;
-    width: 10%;
-    height: 15%;
-}
-
-
 
 .top-cloud {
     float: left;
@@ -107,18 +97,19 @@ h3 {
 
 .bottom-cloud {
     position: absolute;
+    top: 100px;
     left: 30px;
-    bottom: 300px;
+    bottom: 100px;
 }
 
 
 /* project-section */
 
 .project-section {
-    align-items: normal;
+    align-items: stretch;
     width: 100%;
     min-height: 100vh;
-    padding: 150px 100px 100px;
+    padding: 500px 500px 300px;
     position: fixed;
     top: 0;
     transition: 1s;
@@ -141,6 +132,10 @@ h3 {
     display: stretch;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px;
+    padding-top: 10px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    padding-left: 300px;
 }
 
 .project-card{
@@ -168,6 +163,7 @@ h3 {
 
 .project-title{
     font-size: 50px;
+    color: white;
     text-transform: capitalize;
     text-align: center;
     font-weight: 300;
@@ -237,23 +233,7 @@ h3 {
   }
 
   .copyright {
-      color: #eaf6f6;
+      color: #694E4E;
       font-size: .75rem;
       padding: 20px 0;
   }
-
-
-   @media (max-width: 1028px) {
-       #body {
-           text-align: center;
-       }
-       .title-image {
-           position: static;
-       }
-
-       .h3 {
-           font-size: 150%;
-       }
-
-  }
-  
