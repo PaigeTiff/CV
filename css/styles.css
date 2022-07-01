@@ -241,3 +241,19 @@ h3 {
       font-size: .75rem;
       padding: 20px 0;
   }
+
+
+   @media (max-width: 1028px) {
+       #body {
+           text-align: center;
+       }
+       .title-image {
+           position: static;
+       }
+
+       .h3 {
+           font-size: 150%;
+       }
+
+  }
+  
