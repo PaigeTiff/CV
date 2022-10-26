@@ -197,10 +197,7 @@ h3 {
 .project-btn.live{
     background: none;
     border: 2px solid #fff;
-}
 
-.project-card:hover .project-img{
-    filter: blur(20px);
 }
 
 .project-card:hover .project-content{
